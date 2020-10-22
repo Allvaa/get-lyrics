@@ -5,9 +5,9 @@ const baseURL = "https://genius.com/api";
 
 const search = (query) => {
     return new Promise((resolve, reject) => {
-        fetch(`${baseURL}/search?q=${query}`)
+        fetch(`${baseURL}/search/song?q=${query}`)
           .then(res => res.json())
-          .then(body => body.response.hits.length ? body.response.hits[0].result : undefined)
+          .then(body => body.response.sections[0].hits.length ? body.response.sections[0].hits[0].result : undefined)
           .then(resolve)
           .catch(reject);
     });
