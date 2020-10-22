@@ -20,7 +20,7 @@ const song = require("@allvaa/get-lyrics");
 })();
 ```
 
-### `Song` object
+#### `Song` object
 ```ts
 interface Song {
     title: string; // song title
