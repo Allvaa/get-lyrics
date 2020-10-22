@@ -1,5 +1,5 @@
 {
-  "name": "get-lyrics",
+  "name": "@allvaa/get-lyrics",
   "version": "1.1.0",
   "description": "Scrape lyrics of given song title from Genius.",
   "main": "index.js",
