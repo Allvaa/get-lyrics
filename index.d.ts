@@ -6,7 +6,7 @@ declare interface Song {
 }
 
 declare const getLyrics: {
-    (query: string): Promise<Song>;
+    (query: string): Promise<Song | undefined>;
 }
 
 export = getLyrics;
