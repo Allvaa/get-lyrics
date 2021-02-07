@@ -1,6 +1,6 @@
 {
   "name": "@allvaa/get-lyrics",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Scrape lyrics of given song title from Genius.",
   "main": "index.js",
   "types": "index.d.ts",
